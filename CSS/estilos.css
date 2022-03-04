@@ -1,0 +1,290 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/* Header */
+header h1{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    max-width: 680px;
+    margin: 2px auto;
+    font-size: 12px;
+}
+#Boton_Busqueda{
+    color: black;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none; 
+    margin-left: 10px;  
+}
+#IngresoTexto{
+    border: none;
+    background-color: transparent;
+}
+.items{
+    display: inline-block;
+    margin: 3px 12px;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;;
+}
+.esferita{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.iconos{
+    font-size: 10px;
+    color: white;
+    display: block;   
+    box-sizing: border-box;
+
+}
+#carro{
+    display: inline-block;
+    margin-top: 3px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+#user{
+    display: block;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+.comprar{
+    display: inline-block;
+    text-decoration: none;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    width: 15px;
+    height: 15px;
+    border-radius: 12.5px;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+}
+.b p{
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+}
+.barra{
+    background-color: transparent;
+    color: black;
+    opacity: 0.8;
+    display: none;
+}
+.bar{
+    font-size: 20px;
+}
+/* Section */
+.PortadaImg{
+    width: 100%;
+}
+.divImg{
+    position: relative;
+}
+#cuadrito{
+    background-color: black;
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 130px;
+    right: 15px;
+    bottom: 45px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+#emogi{
+    color: white;
+    display: inline-block;
+}
+#cuadrito p{
+    font-size: 12px;
+    font-weight: 100;
+    display: inline-block;
+}
+.rd{
+    color: white;
+    display: block;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+.redes{
+    background-color: transparent;
+    position: absolute;
+    width: 20px;
+    padding: 4px auto;
+    right: 55px;
+    top: 40px;
+}
+.itRd{
+    padding: 0 auto;
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+/* Productos */
+.newArribals{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 92%;
+    margin: auto;
+}
+.imgProd{
+    width: 100%;
+}
+.prod{
+    width: calc(100%/4 - 20px);
+}
+.prod h3{
+    text-align: center;
+    font-weight: 200;
+    color: black;
+    opacity: 0.8;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.prod a{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: black;
+    opacity: 0.8;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 11px;
+}
+.norm{
+    display: block;
+    width: 100%;
+}
+#All{
+    display: block;
+    width: 60px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.cont2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subcont{
+    width: 130px;
+}
+.subcont a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    opacity: 0.8;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.logg a{
+    background-color: black;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+}
+.end{
+    padding-top: 6px;
+    padding-right: 4.5px;
+}
+.tit{
+    text-align: center;
+    font-weight: 200;
+    font-size: 18px;
+}
+footer h4{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 7px;
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+
+}
+.email{
+    height: 26px;
+    font-size: 11px;
+}
+.botS{
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    padding: 8px 13px;
+}
+.formu{
+    text-align: center;
+    margin-bottom: 35px;
+}
+#CopyR{
+    text-align: center;
+    font-size: 8px;
+    color: black;
+    opacity: 0.7;
+    margin-bottom: 2px;
+}
+/* Responsive design */
+@media screen and (max-width: 750px){
+    .barra{
+        display: flex;
+        margin-right: 15px;
+    }
+    .barraNavegacion{
+        display: none;
+    }
+}
+@media screen and (max-width: 570px){
+    #cuadrito{
+        display: block;
+        position: static;
+        margin: 0 auto;
+        max-width: 120px;
+    }
+    .prod{
+        width: calc(100%/2 - 12px);
+    }
+}
